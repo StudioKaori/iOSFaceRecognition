@@ -13,5 +13,5 @@ import Vision
 
 protocol FaceDetectionViewModelInput {
     // camera output
-    var captureOutputTrigger: PublisheSubject<CMSampleBuffer> { get }
+    var captureOutputTrigger: PublishSubject<CMSampleBuffer> { get }
 }
